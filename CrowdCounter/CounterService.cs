@@ -26,7 +26,7 @@ namespace CrowdCounterAPI
                 while(true){
                     CrowdFlow flow = ProcessFlow();
 
-                    //voeg een delegate to om de informatie op te vragen en weer te geven op je scherm
+                    //voeg een delegate to om de informatie op te vragen en weer te geven op je scherm.
                     //wordt enkel uitgevoerd indien het # personen > 0
                     Thread.Sleep(1500);
                 }
